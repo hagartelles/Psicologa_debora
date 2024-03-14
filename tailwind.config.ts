@@ -7,6 +7,9 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    backgroundImage: {
+      'bg_hero': "url('../assets/freepik1.jpg')"
+    },  
     extend: {
       colors:{
         'lightblue': '#91d3cc',
