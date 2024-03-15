@@ -1,7 +1,11 @@
-import { Section} from "@/components/Section"
+import { HeroSection} from "@/components/HeroSection"
+import {Section} from "@/components/Section"
 
 export default function Home() {
   return (
-    <Section/>
+    <>
+      <HeroSection/>
+      <Section/>
+    </>
     );
 }

@@ -5,7 +5,7 @@ type Props = {
 
 export function ItemMenu({name}:Props){
     return (
-        <li className=" col-span-1 justify-center w-full">
+        <li className=" text-sm col-span-1 justify-center w-full">
             <button className=" hover:bg-misty_rose w-full h-full">
               {name}
             </button>
