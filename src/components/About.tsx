@@ -6,7 +6,7 @@ import perfil from "../../public/assets/perfil.png"
 export function About () {
     return (
         
-        <DivBackground minHeight="300">
+        <DivBackground minHeight="500">
             <SplashArt way={SplashImages.splash3} />
             <div className=" pt-12">
                 <div className="w-3/4 mx-auto">

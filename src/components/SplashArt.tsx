@@ -8,7 +8,7 @@ type Props = {
 
 export function SplashArt ({way}:Props){
     return (
-        <Image className="-z-[1000] absolute top-32 rotate-45"
+        <Image className="-z-[1000] absolute top-32"
         src={way}
         alt="SplashArt"
         width={500}
