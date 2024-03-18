@@ -2,13 +2,25 @@ import React from 'react';
 
 const itensAreaAtuacao:string[] = [
     'Transtornos Alimentares',
-    'Ansiedade e Estresse',
+    'Ansiedade',
+    'Estresse',
     'Depressão',
-    'Autoestima e Autoimagem',
+    'Autoestima',
+    'Autoimagem',
     'Relacionamentos Interpessoais',
     'Desenvolvimento Pessoal'
     ]
-const ListAtuacao: React.FC = () => {
+
+const tratamentos:string[] = [
+    'Lorem ipsum dolor sit amet',
+    'Lorem ipsum dolor sit amet',
+    'Lorem ipsum dolor sit amet',
+    'Lorem ipsum dolor sit amet',
+    'Lorem ipsum dolor sit amet'
+]
+
+
+export const ListAtuacao: React.FC = () => {
     return (
         <ul>
             {itensAreaAtuacao.map((item) =>
@@ -18,6 +30,14 @@ const ListAtuacao: React.FC = () => {
     )
 };
 
-export default ListAtuacao
+export const ListTratamento: React.FC = () => {
+    return (
+        <ul>
+            {tratamentos.map((item) =>
+            <li key={item}>{item}</li>
+            )}
+        </ul>
+    )
+};
 
 

@@ -1,11 +1,17 @@
 import { HeroSection} from "@/components/HeroSection"
-import {Section} from "@/components/Section"
+import { ActionArea } from "@/components/ActionArea"
+import { About } from "@/components/About"
+import { Treatments } from "@/components/Treatments"
+
 
 export default function Home() {
   return (
     <>
-      <HeroSection/>
-      <Section/>
+      <HeroSection/>.
+      <About/>
+      <ActionArea/>
+      <Treatments/>
+      
     </>
     );
 }

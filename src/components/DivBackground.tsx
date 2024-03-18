@@ -1,9 +1,16 @@
 import { ReactNode } from 'react';
 
-export function DivBackground ({ children }:{ children:ReactNode} ){
+export type DivBackgroundProps = {
+    children: ReactNode;
+    minHeight: string;
+}
+
+
+
+export function DivBackground ({ children, minHeight }: DivBackgroundProps ){
     return (
-        <section className=" w-full relative">
-            <div className="bg-beige">
+        <section className={`h-${minHeight} w-full relative`}>
+            <div className=" h-full">
             { children }
             </div>
         </section>
