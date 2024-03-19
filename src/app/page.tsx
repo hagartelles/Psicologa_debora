@@ -2,6 +2,7 @@ import { HeroSection} from "@/components/HeroSection"
 import { ActionArea } from "@/components/ActionArea"
 import { About } from "@/components/About"
 import { Treatments } from "@/components/Treatments"
+import  FormComponent  from "@/components/FormComponent"
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <About/>
       <ActionArea/>
       <Treatments/>
+      <FormComponent/>
       
     </>
     );

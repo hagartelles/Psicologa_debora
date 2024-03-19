@@ -2,13 +2,13 @@ import React from 'react';
 
 const itensAreaAtuacao:string[] = [
     'Transtornos Alimentares',
+    'Transtornos de personalidade',
+    'Transtornos de humor',
+    'Dependência química',
     'Ansiedade',
-    'Estresse',
-    'Depressão',
+    'Depressão ',
     'Autoestima',
-    'Autoimagem',
-    'Relacionamentos Interpessoais',
-    'Desenvolvimento Pessoal'
+    'Relacionamentos'
     ]
 
 const tratamentos:string[] = [
