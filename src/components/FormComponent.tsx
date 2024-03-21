@@ -9,6 +9,7 @@ const FormComponent: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    telefone:'',
     message: ''
   });
 
@@ -56,6 +57,21 @@ const FormComponent: React.FC = () => {
             value={formData.email}
             onChange={handleChange}
             placeholder="E-mail"
+            required
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block  text-sm font-bold mb-2 " htmlFor="email">
+          Telefone:
+          </label>
+          <input
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-white"
+            id="telefone"
+            name="telefone"
+            type="telefone"
+            value={formData.telefone}
+            onChange={handleChange}
+            placeholder="telefone"
             required
           />
         </div>
