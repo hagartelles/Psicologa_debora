@@ -4,11 +4,11 @@ import { ItemMenu } from "./ItemMenu"
 
 export function Header() {
     return (
-        <header>
-            <div className="w-full bg-burnt_rose min-h-4 ">
+        <header className=" relative z-[1000]">
+            <div className="w-full bg-burnt_rose min-h-4 fixed top-0 left-0 right-0">
                 <div className="grid grid-cols-3 p-2 border-beige border-b-2" >
-                    <div className="debora col-span-2 text-center ">
-                        <h1 className=" text-3xl text-center font-bold">Débora Miler</h1>
+                    <div className="debora col-span-2 px-4 ">
+                        <h1 className=" text-3xl font-bold">Débora Miler</h1>
                         <div className="italic text-sm">Psicóloga Clínica</div>
                     </div>
                     <div className="social-media col-span-1 "></div>
@@ -16,16 +16,20 @@ export function Header() {
                 <div className="menu border-beige border-b-2">
                     <ul className="grid grid-cols-4  gap-3">
                         <ItemMenu
-                            name="Home"
+                            name="Inicio"
+                            link="Inicio"
                         />
                         <ItemMenu
                             name="Sobre"
+                            link="Sobre"
                         />
                         <ItemMenu
-                            name="Atuação"
+                            name="Especialidades"
+                            link="Especialidades"
                         />
                         <ItemMenu
                             name="Contato"
+                            link="Contato"
                         />
                     </ul>
 

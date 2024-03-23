@@ -4,14 +4,19 @@ import { DivBackground } from "./DivBackground";
 import { useState } from "react";
 
 const Faqs = () => {
+  
   const faqs = [
     {
       title: "Como agendar uma consulta?",
-      content: "Existem duas formas: Preenchendo o formulário e entrarei em contato ou entrando em contato pelas minhas redes sociais (What'sApp ou Instagram)."
+      content: <p>Existem duas formas: Preenchendo o formulário e entrarei em contato ou entrando em contato pelas minhas redes sociais (WhatsApp ou Instagram).</p>
     },
     {
       title: "O atendimento online é igualmente eficaz?",
-      content: "Sim! Estudos ja mostram que a terapia online tem os mesmos benefícios e nivel de sucesso que no modelo presencial."
+      content:  <div>
+                  <p>Sim! Estudos já mostram que a terapia online tem os mesmos benefícios e nível de sucesso que no modelo presencial.</p>
+                  <p>Além disso, a terapia online oferece <strong>comodidade</strong>, <strong>flexibilidade</strong> e <strong>praticidade</strong>, permitindo que os pacientes realizem suas sessões no conforto de suas próprias casas, economizando tempo e evitando deslocamentos.</p>
+                </div>
+      
     },
     {
         title: "Por que escolher um tratamento baseado em evidencias?",
@@ -24,7 +29,7 @@ const Faqs = () => {
     // Adicione mais FAQs conforme necessário
   ];
 
-  const Faq = ({ title, content }: { title: string; content: string }) => {
+  const Faq = ({ title, content }: { title: string; content: any }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -38,7 +43,7 @@ const Faqs = () => {
         </button>
         {isOpen && (
           <div className="w-3/4 mt-2 mx-auto p-4 bg-gray-100">
-            <p>{content}</p>
+            {content}
           </div>
         )}
       </div>
@@ -46,7 +51,7 @@ const Faqs = () => {
   };
 
   return (
-    <DivBackground minHeight="500">
+    <DivBackground name="faq">
         <div className="w-full container text-center mt-10">
         {faqs.map((faq, index) => (
             <Faq key={index} title={faq.title} content={faq.content} />

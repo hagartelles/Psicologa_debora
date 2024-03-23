@@ -1,24 +1,26 @@
 import { DivBackground } from "@/components/DivBackground"
 import { SplashArt, SplashImages } from "./SplashArt"
 import Image from "next/image"
-import perfil from "../../public/assets/perfil.png"
+import sidePerfil from "../../public/assets/2.png"
+
+
 
 export function About () {
     return (
         
-        <DivBackground minHeight="500">
+        <DivBackground name="Sobre">
             <SplashArt way={SplashImages.splash3} />
             <div className=" pt-12">
                 <div className="w-3/4 mx-auto">
                     <h2 className="text-center text-xl font-bold m-2">Sobre 
                     </h2>
                     <div className="grid grid-cols-3 gap-0 text-center  mx-auto rounded-md relative">
-                    <div className="absolute top-0 -left-6">
+                    <div className="absolute top-0 -left-30">
                         <Image className=""
-                        src={perfil}
+                        src={sidePerfil}
                         alt="Psicologa Débora Perfil"
-                        width={180}
-                        height={577}
+                        width={140}
+                        
                         style={{
                             overflow: "visible"
                         }}

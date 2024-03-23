@@ -12,7 +12,6 @@ export default function Home() {
       <HeroSection/>.
       <About/>
       <ActionArea/>
-      <Treatments/>
       <FormComponent/>
       <Faqs/>
       

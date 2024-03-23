@@ -2,14 +2,14 @@ import { ReactNode } from 'react';
 
 export type DivBackgroundProps = {
     children: ReactNode;
-    minHeight: string;
+    name: string;
 }
 
 
 
-export function DivBackground ({ children, minHeight }: DivBackgroundProps ){
+export function DivBackground ({ children, name }: DivBackgroundProps ){
     return (
-        <section className={`h-${minHeight} w-full relative`}>
+        <section className=" min-h-[480px] w-full relative" id={name}>
             <div className=" h-full">
             { children }
             </div>

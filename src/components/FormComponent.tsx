@@ -27,7 +27,7 @@ const FormComponent: React.FC = () => {
   };
 
   return (
-    <DivBackground minHeight="600">
+    <DivBackground name="Contato">
       <h2 className="text-center text-xl font-bold m-2">Contato</h2>
       <form className="w-3/4 max-w-lg mx-auto shadow-md rounded px-8 pt-6 pb-8 mb-4 bg-burnt_rose" onSubmit={handleSubmit}>
         <div className="mb-4">
