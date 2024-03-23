@@ -5,7 +5,7 @@ import { SplashArt, SplashImages } from "./SplashArt"
 export function Treatments () {
     return (
         
-        <DivBackground minHeight="400">
+        <DivBackground name="vazio">
             <div className="w-full overflow-x-hidden">
                 <SplashArt way={SplashImages.splash4} />
                 <div className=" pt-28">
