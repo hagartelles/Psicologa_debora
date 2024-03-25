@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useState } from 'react';
-import { DivBackground } from "@/components/DivBackground"
-import { SplashArt, SplashImages } from "./SplashArt"
+import { DivBackground } from "@/components/globalComponents/DivBackground"
+import { SplashArt, SplashImages } from "../../globalComponents/SplashArt"
 
 
 const FormComponent: React.FC = () => {
@@ -28,8 +28,9 @@ const FormComponent: React.FC = () => {
 
   return (
     <DivBackground name="Contato">
+      <div className="pt-24">
       <h2 className="text-center text-xl font-bold m-2">Contato</h2>
-      <form className="w-3/4 max-w-lg mx-auto shadow-md rounded px-8 pt-6 pb-8 mb-4 bg-burnt_rose" onSubmit={handleSubmit}>
+      <form className="w-3/4 max-w-lg mx-auto shadow-md rounded px-8 pt-6 pb-8 mb-4 bg-burnt_rose/60" onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-sm font-bold mb-2" htmlFor="name">
             Nome:
@@ -109,8 +110,7 @@ const FormComponent: React.FC = () => {
           </button>
         </div>
       </form>
-
-
+      </div>
     </DivBackground>
   );
 };

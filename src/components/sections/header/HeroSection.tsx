@@ -1,12 +1,12 @@
 import Image from "next/image"
-import profile from "../../public/assets/1.png"
-import { SplashArt, SplashImages } from "./SplashArt"
-import { DivBackground } from "@/components/DivBackground"
+import profile from "@/../public/assets/1.png"
+import { SplashArt, SplashImages } from "../../globalComponents/SplashArt"
+import { DivBackground } from "@/components/globalComponents/DivBackground"
 
 export function HeroSection() {
     return (
         <DivBackground name="Inicio" >
-            <div className="w-full">
+            <div className="w-full pt-16">
             <SplashArt way={SplashImages.splash1} />
                 <div className=" w-3/4 m-auto px-2 pt-4">
 

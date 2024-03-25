@@ -1,6 +1,9 @@
 
-
+import Link from "next/link"
 import { ItemMenu } from "./ItemMenu"
+
+
+
 
 export function Header() {
     return (
@@ -11,10 +14,12 @@ export function Header() {
                         <h1 className=" text-3xl font-bold">Débora Miler</h1>
                         <div className="italic text-sm">Psicóloga Clínica</div>
                     </div>
-                    <div className="social-media col-span-1 "></div>
+                    <div className="social-media col-span-1 ">
+                       
+                    </div>
                 </div>
                 <div className="menu border-beige border-b-2">
-                    <ul className="grid grid-cols-4  gap-3">
+                    <ul className="grid grid-cols-5  gap-3">
                         <ItemMenu
                             name="Inicio"
                             link="Inicio"
@@ -24,8 +29,12 @@ export function Header() {
                             link="Sobre"
                         />
                         <ItemMenu
-                            name="Especialidades"
-                            link="Especialidades"
+                            name="tratamento"
+                            link="tratamento"
+                        />
+                        <ItemMenu
+                            name="FAQ"
+                            link="FAQ"
                         />
                         <ItemMenu
                             name="Contato"

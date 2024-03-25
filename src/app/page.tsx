@@ -1,9 +1,9 @@
-import { HeroSection} from "@/components/HeroSection"
-import { ActionArea } from "@/components/ActionArea"
-import { About } from "@/components/About"
+import { HeroSection} from "@/components/sections/header/HeroSection"
+import { ActionArea } from "@/components/sections/actionArea/ActionArea"
+import { About } from "@/components/sections/about/About"
 import { Treatments } from "@/components/Treatments"
-import  FormComponent  from "@/components/FormComponent"
-import  Faqs  from "@/components/Faq"
+import  FormComponent  from "@/components/sections/form/FormComponent"
+import  Faqs  from "@/components/sections/faq/Faq"
 
 
 export default function Home() {

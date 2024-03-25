@@ -1,6 +1,6 @@
 "use client"
 
-import { DivBackground } from "./DivBackground";
+import { DivBackground } from "../../globalComponents/DivBackground";
 import { useState } from "react";
 
 const Faqs = () => {
@@ -20,12 +20,21 @@ const Faqs = () => {
     },
     {
         title: "Por que escolher um tratamento baseado em evidencias?",
-        content: "Com a psicologia baseada em evidencias trago o que ja foi testado, estudado e comprovado como mais eficaz para sua demanda."
+        content: 
+          <p>
+            Com a psicologia baseada em evidencias trago o que ja foi testado, estudado e comprovado como mais eficaz para sua demanda.
+          </p>
     },
     {
         title: "Como eu posso saber se vou me identificar com você?",
-        content: "Antes da nossa primeira sessão, faremos uma “sessão de acolhimento”, que consiste em uma chamada de video para que possamos nos ver e você possa me conhecer um pouco antes de agendar"
-    }
+        content: 
+          <p>
+            Antes da nossa primeira sessão, faremos uma “sessão de acolhimento”, que consiste em uma chamada de video para que possamos nos ver e você possa me conhecer um pouco antes de agendar
+          </p>
+    },
+    {
+      title: `Aceita convênios?`,
+      content: "Não, mas forneço recibo para reembolso."}
     // Adicione mais FAQs conforme necessário
   ];
 
@@ -37,7 +46,7 @@ const Faqs = () => {
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-expanded={isOpen}
-          className="w-3/4 bg-burnt_rose hover:bg-misty_rose font-bold py-2 mx-auto rounded shadow-md"
+          className="w-3/4 bg-burnt_rose/50 hover:bg-misty_rose font-bold py-2 mx-auto rounded shadow-md"
         >
           {title}
         </button>
@@ -51,8 +60,9 @@ const Faqs = () => {
   };
 
   return (
-    <DivBackground name="faq">
-        <div className="w-full container text-center mt-10">
+    <DivBackground name="FAQ">
+        <div className="w-full container text-center mt-24 pt-4">
+          <h2 className="text-center text-xl font-bold m-2">FAQ</h2>
         {faqs.map((faq, index) => (
             <Faq key={index} title={faq.title} content={faq.content} />
         ))}
