@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 import Link from "next/link"
 import { ItemMenu } from "./ItemMenu"
 
@@ -15,15 +15,16 @@ export function Header() {
                         <div className="italic text-sm">Psicóloga Clínica</div>
                     </div>
                     <div className="social-media col-span-1 ">
-                       
                     </div>
                 </div>
                 <div className="menu border-beige border-b-2">
                     <ul className="grid grid-cols-5  gap-3">
+                        
                         <ItemMenu
                             name="Inicio"
                             link="Inicio"
                         />
+                        
                         <ItemMenu
                             name="Sobre"
                             link="Sobre"

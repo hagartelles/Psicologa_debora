@@ -1,7 +1,7 @@
 "use client"
 
 import { DivBackground } from "@/components/globalComponents/DivBackground"
-import {ListAtuacao} from "./ListAtuacao"
+import CardWithDialog from "./ListAtuacao"
 import { SplashArt, SplashImages } from "../../globalComponents/SplashArt"
 
 export function ActionArea () {
@@ -30,8 +30,8 @@ export function ActionArea () {
                             É importante ressaltar que a TCC é a abordagem com mais evidencias cientificas e mais estudada atualmente.
                         </p>
                     </div>
-                    <div>
-                        <ListAtuacao/>
+                    <div className="w-full text-center pt-10">
+                        <CardWithDialog/>
                         
                     </div>
                 </div>
