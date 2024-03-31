@@ -4,10 +4,14 @@ import { useState } from 'react';
 import { SvgIcon } from '@/components/globalComponents/icons';
 
 export function Header() {
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen ] = useState(false);
+    
+    type IconName = "closeIcon" | "menuIcon"
+    const [iconMenu, setIcon] = useState<IconName>("menuIcon");
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
+        setIcon(menuOpen ? "menuIcon": "closeIcon"); 
     };
 
 
@@ -28,35 +32,31 @@ export function Header() {
 
     return (
         <header className="relative z-[1000]">
-            <div className="w-full bg-burnt_rose min-h-4 fixed top-0 left-0 right-0">
-                <div className="grid grid-cols-3 px-10 my-2 border-beige border-b-2">
-                    <div className="debora col-span-2 ">
-                        <h1 className="text-3xl font-bold">Débora Miler</h1>
+            <div className="w-full bg-burnt_rose h-20 fixed top-0 left-0 right-0 border-beige border-b-2">
+                <div className="grid grid-cols-4 px-6 my-2 gap-1">
+                    <div className='col-span-1'>
+                        <SvgIcon name="logo2" width='80' height='auto'/>
+                    </div>
+                    <div className="debora col-span-2 pl-6 pt-2">
+                        <h1 className="text-2xl font-bold">Débora Miler</h1>
                         <div className="italic text-sm">Psicóloga Clínica</div>
                     </div>
                     <div className="btn-menu col-span-1 grid place-items-end my-auto">
                         <button onClick={toggleMenu}>
-                            <SvgIcon name="menuIcon" width="40" height="auto" />
+                            <SvgIcon name={iconMenu } width="40" height="auto" />
                         </button>
                     </div>
                 </div>
                 {menuOpen && (
                     <div id='hiddenMenu' 
-                    className={`transition-all duration-500 absolute top-0 left-0 w-full bg-burnt_rose h-screen ${menuOpen ? '' : 'opacity-0 pointer-events-none'}`}>
-                        <div className="absolute right-3 top-3 ">
-                            <button onClick={toggleMenu}>
-                                <SvgIcon name="closeIcon" width="30" height="auto" />
-                            </button>
-                        </div>
-                        <div className="menu ">
-                            <ul className=" h-screen grid grid-cols-1  grid-rows-5 gap-0 ">
+                    className={`transition-all duration-500 absolute top-20 left-0 w-full bg-burnt_rose h-screen ${menuOpen ? '' : 'opacity-0 pointer-events-none'}`}>
+                            <ul className="h-[calc(100vh-80px)]  grid grid-cols-1  grid-rows-5 gap-0 ">
                                 <ItemMenu name="Inicio" link="Inicio" />
                                 <ItemMenu name="Sobre" link="Sobre" />
                                 <ItemMenu name="tratamento" link="tratamento" />
                                 <ItemMenu name="FAQ" link="FAQ" />
                                 <ItemMenu name="Contato" link="Contato" />
                             </ul>
-                        </div>
                     </div>
                 )}
             </div>
