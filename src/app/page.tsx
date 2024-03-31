@@ -3,6 +3,7 @@ import { ActionArea } from "@/components/sections/actionArea/ActionArea"
 import { About } from "@/components/sections/about/About"
 import  FormComponent  from "@/components/sections/form/FormComponent"
 import  Faqs  from "@/components/sections/faq/Faq"
+import { Footer } from "@/components/sections/footer/Footer"
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       <ActionArea/>
       <FormComponent/>
       <Faqs/>
-      
+      <Footer/>
     </>
     );
 }

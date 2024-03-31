@@ -12,21 +12,20 @@ export function About() {
             <SplashArt way={SplashImages.splash3} />
             <div className="pt-24">
                 <div className="w-3/4 mx-auto">
-                    <div className="grid grid-cols-3 gap-0 mx-auto ">
-                        <div className="col-span-1 flex items-center justify-center">
-                            
-                                <Image
-                                    src={sidePerfil}
-                                    alt="Psicologa Débora Perfil"
-                                    width={600}
-                                    height={1200}
-                                />
-                            
+                    <div className="grid grid-cols-5 gap-0 mx-auto ">
+                        <div className="col-span-2 overflow-visible">
+                            <Image
+                                src={sidePerfil}
+                                alt="Psicologa Débora Perfil"
+                                width={600}
+                                height={1200}            
+                            />
                         </div>
-                        <div className="col-span-2 text-xs grid place-content-center">
-                            <h2 className="text-xl font-bold">Débora Miler - Psicóloga clínica (CRP:05/71189)</h2>
+                        <div className="col-span-3 text-xs grid place-content-center">
+                            <h2 className="text-3xl font-bold">Débora Miler </h2>
+                            <p>Psicóloga clínica (CRP:05/71189)</p>
                         </div>
-                        <div className=" col-span-3 rounded-md bg-burnt_rose/50 mt-20 p-4">
+                        <div className=" col-span-5 rounded-md p-4">
                             <p>
                                 Me chamo <span className=" font-bold">Débora Miler dos Santos</span>, sou de São Gonçalo, Rio de Janeiro e tenho 28 anos.
                             </p>
