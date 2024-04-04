@@ -35,7 +35,7 @@ export function Header() {
 
     const ItemMenu = ({ name, link }:Props) => (
         <li className=" text-2xl text-bold justify-center w-full  bg-burnt_rose/50 hover:bg-misty_rose/50
-        md:col-span-1 md:text-base md:h-full ">
+        md:col-span-1 md:text-base md:text-bold lg:text-xl lg:text-bold md:h-full ">
             <a href={`#${link}`} className="h-full w-full grid place-items-center " onClick={closeMenu}>
                 {name}
             </a>
@@ -81,13 +81,13 @@ export function Header() {
     return (
         <header className="relative z-[1000]">
             <div className="w-full bg-burnt_rose h-20 fixed top-0 left-0 right-0">
-                <div className="grid grid-cols-4 my-2  md:grid-cols-12">
+                <div className="grid grid-cols-4   md:grid-cols-12">
                     <div className='col-span-1 md:col-span-2 md:pl-4 grid place-items-center'>
                         <SvgIcon name="logo2" width={logoWidthState.toString()} height='auto'/>
                     </div>
                     <div className="debora grid content-center col-span-2 md:col-span-4 mx-auto ">
-                        <h1 className="text-3xl md:text-4xl font-bold ">Débora Miler</h1>
-                        <div className="italic text-xs">Psicóloga Clínica
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold ">Débora Miler</h1>
+                        <div className="italic text-xs md:text-base">Psicóloga Clínica
                         </div>
                     </div>
                     <div className="menu col-span-1  grid place-items-center my-auto md:col-span-6 md:place-items-start">
