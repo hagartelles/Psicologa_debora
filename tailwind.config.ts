@@ -22,8 +22,10 @@ const config: Config = {
       }
     },
   },
+  screens: {
+    'xl':'1440px'
+  },
   plugins: [
-
   ],
 };
 export default config;
