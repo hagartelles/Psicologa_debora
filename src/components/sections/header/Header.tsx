@@ -43,7 +43,7 @@ export function Header() {
     );
     
     const logoWidth =()=> {
-        let sizeScreen = window.innerWidth
+        let sizeScreen = typeof window !== 'undefined' ? window.innerWidth : 0;
         let logoW = 80
 
         if (sizeScreen > 574 && sizeScreen < 767 ) {
