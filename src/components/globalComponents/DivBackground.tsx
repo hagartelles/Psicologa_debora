@@ -9,7 +9,7 @@ export type DivBackgroundProps = {
 
 export function DivBackground ({ children, name }: DivBackgroundProps ){
     return (
-        <section className=" min-h-[480px] w-full relative" id={name}>
+        <section className="mx-auto min-h-[480px] w-full max-w-5xl relative" id={name}>
             <div className=" ">
             { children }
             </div>
