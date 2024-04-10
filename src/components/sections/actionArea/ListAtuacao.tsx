@@ -9,26 +9,26 @@ const ListAtuacao: React.FC = () => {
   const itensAreaAtuacao: AtuacaoItem[] = [
     {
       title: 'Transtornos Alimentares',
-      content: 'texto 1'
+      content: 'Nem sempre é possível manter uma relação saudável com a comida e quando se existe uma perturbação no comportamento alimentar, podemos considerar se tratar de um transtorno. Para que um comportamento alimentar incomum seja considerado um transtorno, o comportamento precisa ser constante por um determinado período e causar prejuízo significativo.'
     },
     {
       title: 'Transtornos de personalidade',
-      content: 'texto 2'
+      content: 'Os traços de personalidade representam padrões de pensamento, percepção, reação e relacionamento que permanecem relativamente estáveis ao longo do tempo e os transtornos de personalidade existem quando esses traços se tornam tão pronunciados, rígidos e mal-adaptativos que prejudicam o funcionamento, as adaptações sociais e podem causar sofrimento significativo para o paciente ou pessoas que se relacionam com ele.'
     },
     {
       title: 'Transtornos de humor',
       content: 'texto 3'
     },
     {
-      title: 'Dependência química',
+      title: 'transtornos de ansiedade',
       content: 'texto 4'
     },
     {
-      title: 'Ansiedade',
+      title: 'Transtornos depressivos',
       content: 'texto 5'
     },
     {
-      title: 'Depressão',
+      title: 'Dependência química',
       content: 'texto 6'
     },
     {
