@@ -60,9 +60,9 @@ const Faqs = () => {
   };
 
   return (
-    <DivBackground name="FAQ">
+    <DivBackground name="Duvidas">
         <div className="w-full container text-center mt-24 pt-4">
-          <h2 className="text-center text-xl font-bold m-2">FAQ</h2>
+          <h2 className="text-center text-xl font-bold m-2">Dúvidas Frequentes</h2>
         {faqs.map((faq, index) => (
             <Faq key={index} title={faq.title} content={faq.content} />
         ))}

@@ -9,7 +9,7 @@ export function HeroSection() {
     return (
 
         <DivBackground name="Inicio" >
-            <div className="w-full pt-24">
+            <div className="w-full pt-24 h-dvh">
             <SplashArt way={SplashImages.splash1} />
                 <div className="grid grid-cols-1 gap-3 w-3/4 m-auto px-2 ">
                     <div className="mx-auto col-span-1 max-w-96 lg:max-w-md ">
@@ -18,15 +18,16 @@ export function HeroSection() {
                             src={profile}
                             alt="Débora Miller - Psicologa Clínica"
                             width={600}
+                            
                         />
                     </div>
                     <div className="">
                     <div className="grid grid-rows-2 gap-1">
-                        <h2 className=" text-2xl md:text-4xl lg:text-5xl text-center font-bold">Especialista em Saúde Mental </h2>
-                        <p className="text-center text-base md:text-xl lg:text-3xl">Te ajudo a criar uma relação saudável com você</p>
+                        <h2 className=" text-xl md:text-2xl lg:text-4xl text-center font-bold">Especialista em Saúde Mental </h2>
+                        <p className="text-center text-base  lg:text-xl">Te ajudo a criar uma relação saudável com você</p>
                     </div>
-                    <div className="mt-2 w-full text-center text-base md:text-xl lg:text-3xl">
-                        <button className="bg-burnt_rose hover:bg-misty_rose py-2 px-4 rounded-md">
+                    <div className="mt-2 w-full text-center text-base md:text-xl lg:text-2xl">
+                        <button className="bg-burnt_rose hover:border-1 py-2 px-4 rounded-md">
                             Clique aqui
                         </button>
                     </div>

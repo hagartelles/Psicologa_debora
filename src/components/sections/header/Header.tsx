@@ -49,11 +49,11 @@ export function Header() {
             let sizeScreen = typeof window !== 'undefined' ? window.innerWidth : 0;
             let logoW = 80
             if (sizeScreen > 574 && sizeScreen < 767 ) {
-                logoW = 96
+                logoW = 88  
             } else if(sizeScreen > 767 && sizeScreen < 1023 ) {
-                logoW = 100
+                logoW = 96
             } else if(sizeScreen > 1023 ) {
-                logoW = 112
+                logoW = 104
             }
             return logoW
         }
@@ -81,7 +81,7 @@ export function Header() {
                         <SvgIcon name="logo2" width={logoWidthState.toString()} height='auto'/>
                     </div>
                     <div className="debora grid content-center col-span-2 md:col-span-4 mx-auto ">
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold ">Débora Miler</h1>
+                        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold ">Débora Miler</h1>
                         <div className="italic text-xs md:text-base">Psicóloga Clínica
                         </div>
                     </div>
@@ -94,7 +94,7 @@ export function Header() {
                                 <ItemMenu name="Inicio" link="Inicio"/>
                                 <ItemMenu name="Sobre" link="Sobre" />
                                 <ItemMenu name="TCC" link="tratamento" />
-                                <ItemMenu name="Duvidas" link="FAQ" />
+                                <ItemMenu name="Duvidas" link="Duvidas" />
                                 <ItemMenu name="Contato" link="Contato" />
                         </ul>
                     </div>
@@ -108,7 +108,7 @@ export function Header() {
                                 <ItemMenu name="Inicio" link="Inicio" />
                                 <ItemMenu name="Sobre" link="Sobre" />
                                 <ItemMenu name="tratamento" link="tratamento" />
-                                <ItemMenu name="FAQ" link="FAQ" />
+                                <ItemMenu name="FAQ" link="Duvidas" />
                                 <ItemMenu name="Contato" link="Contato" />
                             </ul>
                     </div>
