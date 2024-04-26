@@ -25,7 +25,7 @@ export function About() {
                             <h2 className="text-3xl font-bold lg:text-5xl    ">Débora Miler </h2>
                             <p className=" text-base md:text-xl ">Psicóloga clínica (CRP:05/71189)</p>
                         </div>
-                        <div className=" col-span-6 xl:col-span-12 rounded-md p-4 text-lg md:text-xl  ">
+                        <div className=" col-span-6 xl:col-span-12 rounded-md p-4 text-base md:text-xl  ">
                             <p className="pt-3">
                                 Me chamo <span className=" font-bold">Débora Miler dos Santos</span>, sou de São Gonçalo, Rio de Janeiro e tenho 28 anos.
                             </p>

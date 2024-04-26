@@ -46,12 +46,12 @@ const Faqs = () => {
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-expanded={isOpen}
-          className="w-3/4 bg-burnt_rose/50 hover:bg-misty_rose font-bold py-2 mx-auto rounded shadow-md"
+          className="w-3/4 bg-burnt_rose/50 hover:bg-misty_rose font-bold py-2 mx-auto rounded text-base md:text-lg lg:text-xl"
         >
           {title}
         </button>
         {isOpen && (
-          <div className="w-3/4 mt-2 mx-auto p-4 bg-gray-100">
+          <div className="w-3/4 mt-2 mx-auto p-4 text-base lg:text-lg ">
             {content}
           </div>
         )}

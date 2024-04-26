@@ -24,7 +24,7 @@ export function HeroSection() {
                     <div className="">
                     <div className="grid grid-rows-2 gap-1">
                         <h2 className=" text-xl md:text-2xl lg:text-4xl text-center font-bold">Especialista em Saúde Mental </h2>
-                        <p className="text-center text-base  lg:text-xl">Te ajudo a criar uma relação saudável com você</p>
+                        <p className="text-center text-base lg:text-xl">Te ajudo a criar uma relação saudável com você</p>
                     </div>
                     <div className="mt-2 w-full text-center text-base md:text-xl lg:text-2xl">
                         <button className="bg-burnt_rose hover:border-1 py-2 px-4 rounded-md">
