@@ -60,13 +60,13 @@ const ListAtuacao: React.FC = () => {
     {
       title: 'Autoestima',
       content: 'Embora seja um termo do senso comum, a falta de autoestima ou baixa autoestima é uma demanda comum no consultório. Podemos definir autoestima como a forma que a pessoa se vê e o valor que dá para si. A autoestima é construída com base nas crenças positivas e negativas. Essa visão de si mesmo pode interferir negativamente em diversas áreas da vida.',
-      imageName: picDepressao,
+      imageName: picAutoestima,
       imageDescription: "Uma representação visual de autoestima - uma mulher se abraçando."
     },
     {
       title: 'Relacionamentos',
       content: 'Outra queixa comum em consultório é a dificuldade em relacionamentos. Esses relacionamentos podem ser familiares, amorosos ou profissionais. Devemos iniciar o processo aceitando que não temos o poder de mudar o outro, mas podemos chegar a conclusões quanto a nossa responsabilidade nesses problemas interpessoais e assim melhorar as habilidades sociais e a forma de se relacionar.',
-      imageName: picDepressao,
+      imageName: picRelacionamentos,
       imageDescription: "representaçaõ visual de relacionamento - um casal argumentando de forma aberta em sua casa."
     }
   ];
