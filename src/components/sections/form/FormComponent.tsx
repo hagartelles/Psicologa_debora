@@ -41,10 +41,13 @@ const FormComponent: React.FC = () => {
 
   return (
     <DivBackground name="Contato">
-      <div className="pt-24">
-        <h2 className="text-center text-xl font-bold m-2">Contato</h2>
-        <form className="w-3/4 max-w-lg mx-auto shadow-md rounded px-8 pt-6 pb-8 mb-4 bg-burnt_rose/60" action="https://formsubmit.co/hagar.telles@email.com" method="POST" onSubmit={handleSubmit}>
-          <div className="mb-4">
+      <div className="w-3/4 mx-auto pt-24">
+        <h2 className="text-3xl font-bold lg:text-5xl text-center m-2 mb-8">Contato</h2>
+        <div className='py-4 '>
+          <p className=" text-base md:text-xl ">Você pode entrar em contato comigo pelo WhatsApp ou se preferir por aqui! eu vou receber e lhe respondo o mais breve possível !</p>
+        </div>
+        <form className="mx-auto w-full rounded px-8 pt-6 pb-8 mb-4 mt-4 bg-burnt_rose/60" action="https://formsubmit.co/hagar.telles@email.com" method="POST" onSubmit={handleSubmit}>
+          <div className=" mb-4">
             <label className="block text-sm font-bold mb-2" htmlFor="name">
               Nome:
             </label>
@@ -112,11 +115,7 @@ const FormComponent: React.FC = () => {
              font-bold 
              py-2 px-4 
              rounded
-             outline-misty_rose
-             
-
-             shadow-lg shadow-black/30
-             "
+             outline-misty_rose"
               type="submit"
             >
               Enviar

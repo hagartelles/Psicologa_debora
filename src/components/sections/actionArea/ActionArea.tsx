@@ -11,7 +11,7 @@ export function ActionArea () {
             <SplashArt way={SplashImages.splash2} />
             <div className="pt-24">
                 <div className="w-3/4 mx-auto">
-                    <h2 className="text-center text-3xl lg:text-5xl font-bold m-2">Sobre a Terapia Cognitiva Comportamental
+                    <h2 className="text-center text-3xl lg:text-5xl font-bold m-2 mb-8 ">Sobre a Terapia Cognitiva Comportamental
                     </h2>
                     <div className=" text-base md:text-xl  mx-auto mt-4 px-4">
                         <p className="pb-2">

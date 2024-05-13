@@ -27,9 +27,11 @@ export function HeroSection() {
                         <p className="text-center text-base lg:text-xl">psicologia baseada em evidências</p>
                     </div>
                     <div className="mt-2 w-full text-center text-base md:text-xl lg:text-2xl">
-                        <button className="bg-burnt_rose hover:border-1 py-2 px-4 rounded-md">
-                            Clique aqui
-                        </button>
+                        <a href="#Contato">
+                            <button className="bg-burnt_rose hover:border-1 py-2 px-4 rounded-md">
+                                Agende uma Consulta
+                            </button>
+                        </a>
                     </div>
                     </div>
                 </div>

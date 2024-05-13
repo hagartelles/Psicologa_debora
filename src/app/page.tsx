@@ -4,6 +4,7 @@ import { About } from "@/components/sections/about/About"
 import  FormComponent  from "@/components/sections/form/FormComponent"
 import  Faqs  from "@/components/sections/faq/Faq"
 import { Footer } from "@/components/sections/footer/Footer"
+import { WhatsApp } from "@/components/globalComponents/WhatsApp"
 
 
 export default function Home() {
@@ -12,9 +13,10 @@ export default function Home() {
       <HeroSection/>.
       <About/>
       <ActionArea/>
-      <FormComponent/>
       <Faqs/>
+      <FormComponent/>
       <Footer/>
+      <WhatsApp/>
     </>
     );
 }

@@ -24,6 +24,7 @@ import whatsApp from "@/../public/assets/icons/whatsApp.png"
 export const svgs = {
     logo1: logo1,
     logo2:logo2,
+    whatsApp: whatsApp,
     ansiedade: ansiedade,
     autoestima: autoestima,
     contato: contato,
@@ -39,7 +40,7 @@ export const svgs = {
     tAlimentar: tAlimentar,
     tHumor: tHumor,
     tPersonalidade: tPersonalidade,
-    whatsApp: whatsApp,
+    
     menuIcon: menuIcon,
     closeIcon: closeIcon
   };

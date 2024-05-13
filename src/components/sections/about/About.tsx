@@ -36,7 +36,7 @@ export function About() {
                                 Minha jornada na psicologia começou aos 14 anos, quando fui diagnosticada com um transtorno alimentar.
                             </p>
                             <p className="pt-3">
-                                Após algumas recaídas, encontrei na psicologia o caminho para a recuperação.
+                                Ainda como paciente me apaixonei pela psicologia e ao mesmo tempo que encontrava o caminho da recuperação, criava cada vez mais vontade de estar do outro lado.
                             </p>
                             <p className="pt-3">
                                 Hoje, tenho certeza de que fiz a melhor escolha da minha vida e amo minha profissão.
