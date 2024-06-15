@@ -26,13 +26,6 @@ const Faqs = () => {
           </p>
     },
     {
-        title: "Como eu posso saber se vou me identificar com você?",
-        content: 
-          <p>
-            Antes da nossa primeira sessão, faremos uma “sessão de acolhimento”, que consiste em uma chamada de video para que possamos nos ver e você possa me conhecer um pouco antes de agendar
-          </p>
-    },
-    {
       title: `Aceita convênios?`,
       content: "Não, mas forneço recibo para reembolso."}
     // Adicione mais FAQs conforme necessário
