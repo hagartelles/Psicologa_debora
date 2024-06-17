@@ -30,17 +30,35 @@ export function About() {
                                 Me chamo <span className=" font-bold">Débora Miler dos Santos</span>, sou de São Gonçalo, Rio de Janeiro e tenho 28 anos.
                             </p>
                             <p className="pt-3">
-                                Sou graduada pela faculdade Estácio,<span className=" font-bold"> atuo com adolescentes (a partir dos 12 anos) e adultos.</span>
+                                Me formei na Universidade Estácio de Sá (UNESA) em 2022 e durante esses dois anos me dediquei a estudar para além do que aprendi na faculdade.
                             </p>
                             <p className="pt-3">
-                                Minha jornada na psicologia começou aos 14 anos, quando fui diagnosticada com um transtorno alimentar.
+                                Sigo me aprimorando e buscando os melhores tratamento baseados em evidências
                             </p>
                             <p className="pt-3">
-                                Ainda como paciente me apaixonei pela psicologia e ao mesmo tempo que encontrava o caminho da recuperação, criava cada vez mais vontade de estar do outro lado.
+                                Sou especialista em saúde mental, estou me especializando em Terapia Cognitivo comportamental e tenho formação em psicopatologia e obesidade e emagrecimento.
                             </p>
                             <p className="pt-3">
-                                Hoje, tenho certeza de que fiz a melhor escolha da minha vida e amo minha profissão.
+                                Hoje atuo atendendo de forma online adultos e adolescentes.
                             </p>
+                            <p className="pt-3">
+                                Conheci a psicologia na posição de paciente aos 14 anos, quando fui diagnosticada com um transtorno alimentar
+                            </p>
+                            <p className="pt-3">
+                                Me apaixonei pela profissão conforme minha recuperação foi acontecendo e tive vontade de estar do outro lado
+                            </p>
+                            <p className="pt-3">
+                                Entretanto, o lugar de paciente me trouxe o receio quando a minha capacidade de ser uma boa profissional e essa vontade ficou adormecida.
+                            </p>
+                            <p className="pt-3">
+                                Quando terminei a escola comecei um outro curso, onde me decepcionei bastante.
+                            </p>
+                            <p className="pt-3">
+                                Tranquei a faculdade e depois de um ano parada pensando e sempre consumindo livros e conteúdos de psicologia resolvi me dar a chance de cursar psicologia.
+                            </p>
+                            <p className="pt-3">
+                                Me apaixonei pelo curso, pela profissão e todo dia sei que escolhi certo.
+                            </p>                           
                         </div>
                     </div>
 
