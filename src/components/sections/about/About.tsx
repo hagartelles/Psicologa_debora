@@ -33,7 +33,7 @@ export function About() {
                                 Me formei na Universidade Estácio de Sá (UNESA) em 2022 e durante esses dois anos me dediquei a estudar para além do que aprendi na faculdade.
                             </p>
                             <p className="pt-3">
-                                Sigo me aprimorando e buscando os melhores tratamento baseados em evidências
+                                Sigo me aprimorando e buscando os melhores tratamentos baseados em evidências
                             </p>
                             <p className="pt-3">
                                 Sou especialista em saúde mental, estou me especializando em Terapia Cognitivo comportamental e tenho formação em psicopatologia e obesidade e emagrecimento.
@@ -54,7 +54,7 @@ export function About() {
                                 Quando terminei a escola comecei um outro curso, onde me decepcionei bastante.
                             </p>
                             <p className="pt-3">
-                                Tranquei a faculdade e depois de um ano parada pensando e sempre consumindo livros e conteúdos de psicologia resolvi me dar a chance de cursar psicologia.
+                                Tranquei a faculdade e depois de um ano parada pensando e sempre consumindo livros e conteúdos de psicologia, resolvi me dar a chance de cursar psicologia.
                             </p>
                             <p className="pt-3">
                                 Me apaixonei pelo curso, pela profissão e todo dia sei que escolhi certo.
