@@ -48,13 +48,13 @@ export function About() {
                                 Me apaixonei pela profissão conforme minha recuperação foi acontecendo e tive vontade de estar do outro lado
                             </p>
                             <p className="pt-3">
-                                Entretanto, o lugar de paciente me trouxe o receio quando a minha capacidade de ser uma boa profissional e essa vontade ficou adormecida.
+                                Entretanto, o lugar de paciente me trouxe o receio quanto a minha capacidade de ser uma boa profissional e essa vontade ficou adormecida.
                             </p>
                             <p className="pt-3">
                                 Quando terminei a escola comecei um outro curso, onde me decepcionei bastante.
                             </p>
                             <p className="pt-3">
-                                Tranquei a faculdade e depois de um ano parada pensando e sempre consumindo livros e conteúdos de psicologia, resolvi me dar a chance de cursar psicologia.
+                                Tranquei a faculdade e depois de um ano parada pensando e sempre consumindo livros e conteúdos, resolvi me dar a chance de cursar psicologia.
                             </p>
                             <p className="pt-3">
                                 Me apaixonei pelo curso, pela profissão e todo dia sei que escolhi certo.
