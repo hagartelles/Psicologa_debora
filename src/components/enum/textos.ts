@@ -1,14 +1,44 @@
-interface Textos {
-    quemSouEu: string;
-    oQueFaco: string;
-    comoEuFaco: string;
-}
-
-export const textos: Textos = {
-    quemSouEu:"Me encontrei com a psicologia pela primeira vez no lugar de paciente. Durante toda adolescência fui acometida por transtornos alimentares, inicialmente bulimia nervosa e depois anorexia nervosa, a contra gosto e pressionada pela família iniciei o tratamento aos 14 anos, este durou 10 anos com muitos lapsos e recaídas.Durante esse período, após desistir da minha primeira opção de curso na faculdade (design de moda), resolvi iniciar o curso de psicologia a princípio para “me entender”, visto que eu ainda me considerava perdida no que eu queria. Ao iniciar o curso me deparei com dois fatos: primeiro: muitos tinham entrado ali pelo mesmo motivo e segundo: aquilo era realmente para mim, percebi isso ao me perceber assistindo todas as aulas com os olhos brilhando. Realmente o curso me ajudou muito. Segui e continuo até hoje aprimorando meus estudos, de modo que hoje sei o que levou a Débora adolescente a parar de comer. E talvez seja por isso que hoje sou tão interessada pelo comportamento alimentar e que ajudar as pessoas a criarem uma relação boa com a comida se tornou meu propósito.",
-    oQueFaco:"O comportamento alimentar é algo complexo. A comida está inserida nas nossas vidas, mas poucas vezes paramos para pensar sobre ela. Eu posso dizer que existem os que comem mesmo sem fome e os que apesar de vivenciar uma fome absurda se recusa a comer. Tem ainda os que se culpam por comer e todos esses tem em comum o relacionamento disfuncional com a comida. Ao correlacionar emoções com comida você se torna refém de algo que deveria servir para te nutrir. Ao optar por comer em momentos de tristeza ou raiva você reforça essa dependência. Da mesma forma que não será com regras rígidas que você conquistará o corpo que deseja. Uma boa relação com a comida deve conter equilibrada e se abster de sentimentos ruins. Meu objetivo é ajudar qualquer pessoa que veja na comida um problema e que se sente sem controle sobre ela.",
-    comoEuFaco:"A terapia cognitivo comportamental (ou TCC) é uma abordagem amplamente estudada e uma das melhores opções quando falamos de psicologia baseada em evidências. A TCC consiste em técnicas primordiais para mudanças de comportamento e tratamento dos principais transtornos mentais. Se tratando de obesidade, sabemos que esta não está entre os transtornos mentais, mas trás muitas comorbidades de viés psicológico, como a compulsão alimentar, por exemplo. Além de um comportamento alimentar disfuncional que prejudica o emagrecimento. No tratamento, uso o protocolo de Oxford que consiste em três fases: duas fases de emagrecimento e uma de manutenção do peso. Nas primeiras fases descobrimos os obstáculos e moderamos os objetivos, além de administramos a preocupação com a imagem corporal. Na terceira fase focamos na estabilidade no peso e nas habilidades que precisará ter para mantê-lo. No caso dos transtornos alimentares ( temos como principais a bulimia nervosa e a anorexia nervosa, mas existem muitos outros) o tratamento foca principalmente nos pensamentos distorcidos a respeito do próprio corpo, peso, forma corporal, alimentação e autoestima. Em todos os tratamentos, o foco é fazer com que você reaprenda a comer de modo normal. Se a sua relação com a comida deixou de ser saudável e natural é a hora de pedir ajuda, mesmo que seja difícil admitir."
-}
+const sobreMim = {
+    quemSouEu: {
+      titulo: "Quem sou eu",
+      conteudo: `
+        Me encontrei com a psicologia pela primeira vez no lugar de paciente. Durante toda adolescência fui acometida por transtornos alimentares, inicialmente bulimia nervosa e depois anorexia nervosa, a contra gosto e pressionada pela família iniciei o tratamento aos 14 anos, este durou 10 anos com muitos lapsos e recaídas.
+        
+  
+        Durante esse período, após desistir da minha primeira opção de curso na faculdade (design de moda), resolvi iniciar o curso de psicologia a princípio para “me entender”, visto que eu ainda me considerava perdida no que eu queria. Ao iniciar o curso me deparei com dois fatos: primeiro: muitos tinham entrado ali pelo mesmo motivo e segundo: aquilo era realmente para mim, percebi isso ao me perceber assistindo todas as aulas com os olhos brilhando.
+  
+        Realmente o curso me ajudou muito. Segui e continuo até hoje aprimorando meus estudos, de modo que hoje sei o que levou a Débora adolescente a parar de comer. E talvez seja por isso que hoje sou tão interessada pelo comportamento alimentar e que ajudar as pessoas a criarem uma relação boa com a comida se tornou meu propósito.
+      `
+    },
+    oQueFaco: {
+      titulo: "O que eu faço",
+      conteudo: `
+        O comportamento alimentar é algo complexo. A comida está inserida nas nossas vidas, mas poucas vezes paramos para pensar sobre ela.
+  
+        Eu posso dizer que existem os que comem mesmo sem fome e os que apesar de vivenciar uma fome absurda se recusam a comer. Tem ainda os que se culpam por comer e todos esses têm em comum o relacionamento disfuncional com a comida.
+  
+        Ao correlacionar emoções com comida você se torna refém de algo que deveria servir para te nutrir. Ao optar por comer em momentos de tristeza ou raiva você reforça essa dependência. Da mesma forma que não será com regras rígidas que você conquistará o corpo que deseja. Uma boa relação com a comida deve ser equilibrada e se abster de sentimentos ruins.
+  
+        Meu objetivo é ajudar qualquer pessoa que veja na comida um problema e que se sente sem controle sobre ela.
+      `
+    },
+    comoFaco: {
+      titulo: "Como eu faço",
+      conteudo: `
+        A terapia cognitivo-comportamental (ou TCC) é uma abordagem amplamente estudada e uma das melhores opções quando falamos de psicologia baseada em evidências.
+  
+        A TCC consiste em técnicas primordiais para mudanças de comportamento e tratamento dos principais transtornos mentais.
+  
+        Se tratando de obesidade, sabemos que esta não está entre os transtornos mentais, mas traz muitas comorbidades de viés psicológico, como a compulsão alimentar, por exemplo. Além de um comportamento alimentar disfuncional que prejudica o emagrecimento. No tratamento, uso o protocolo de Oxford que consiste em três fases: duas fases de emagrecimento e uma de manutenção do peso. Nas primeiras fases descobrimos os obstáculos e moderamos os objetivos, além de administrarmos a preocupação com a imagem corporal. Na terceira fase focamos na estabilidade no peso e nas habilidades que precisará ter para mantê-lo.
+  
+        No caso dos transtornos alimentares (temos como principais a bulimia nervosa e a anorexia nervosa, mas existem muitos outros), o tratamento foca principalmente nos pensamentos distorcidos a respeito do próprio corpo, peso, forma corporal, alimentação e autoestima.
+  
+        Em todos os tratamentos, o foco é fazer com que você reaprenda a comer de modo normal. Se a sua relação com a comida deixou de ser saudável e natural, é a hora de pedir ajuda, mesmo que seja difícil admitir.
+      `
+    }
+  };
+  
+  export default sobreMim;
 
 
 

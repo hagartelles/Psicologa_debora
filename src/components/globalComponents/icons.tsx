@@ -20,6 +20,7 @@ import tAlimentar from "@/../public/assets/icons/transtornoAlimentar.png"
 import tHumor from "@/../public/assets/icons/transtornoDeHumor.png"
 import tPersonalidade from "@/../public/assets/icons/transtornoPersonalidade.png"
 import whatsApp from "@/../public/assets/icons/whatsApp.png"
+import tikTok from "@/../public/svg/tiktok.svg"
 
 export const svgs = {
     logo1: logo1,
@@ -42,7 +43,8 @@ export const svgs = {
     tPersonalidade: tPersonalidade,
     
     menuIcon: menuIcon,
-    closeIcon: closeIcon
+    closeIcon: closeIcon,
+    tikTok: tikTok
   };
 
 type IconProps = {

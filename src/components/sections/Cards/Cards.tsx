@@ -1,48 +1,61 @@
 import { DivBackground } from "@/components/globalComponents/DivBackground";
 import { GenericCard } from "@/components/Ui/Cards/genericCard";
-import { EmojiEmotions, Restaurant, Psychology } from '@mui/icons-material';
-import { Box } from "@mui/material";
+import { Restaurant } from '@mui/icons-material';
+import { Box, Container } from "@mui/material";
 import { cardsContent } from "@/components/enum/cardsContent";
 
 export const Cards = () => {
     return (
         <>
-            <DivBackground name="Cards">
-                <Box
-                    sx={{
-                        display: 'grid',
-                        gridTemplateColumns: { xs: '1fr', md: 'repeat(auto-fill, minmax(min(200px, 100%), 1fr))' },
-                        gap: 4, 
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        width: '100%', 
-                        margin: '0 auto', 
-                    }}
-                >
-                    <GenericCard
-                        titulo="Quem sou eu"
-                        conteudo={cardsContent.elaboracaoLaudo}
-                        icone={<Restaurant fontSize="large" />}
-                    />
+            <DivBackground name="tratamentos" extraClass="flex items-center">
+                <Container className="my-auto flex items-center">
+                    <Box
+                        sx={{
+                            display: 'grid',
+                            gridTemplateColumns: {
+                                xs: 'repeat(2, 1fr)', 
+                                lg: 'repeat(4, 1fr)', 
+                            },
+                            gap: 2, 
+                            padding: 2, 
+                            justifyContent: 'center', 
+                            justifyItems: 'center', 
+                            alignItems: 'center', 
+                            width: '100%',
+                            maxWidth: {
+                                xs: '100%',
+                                sm: '90%', 
+                                md: '85%',
+                                lg: '80%'
+                            }, 
+                            mx: 'auto',
+                        }}
+                    >
+                        <GenericCard
+                            titulo={cardsContent.LaudoTitle}
+                            conteudo={cardsContent.LaudoContent}
+                            icone={<Restaurant fontSize="large" />}
+                        />
 
-                    <GenericCard
-                        titulo="Quem sou eu"
-                        conteudo={cardsContent.elaboracaoLaudo}
-                        icone={<Restaurant fontSize="large" />}
-                    />
+                        <GenericCard
+                            titulo={cardsContent.EmocionalTitle}
+                            conteudo={cardsContent.EmocionalContent}
+                            icone={<Restaurant fontSize="large" />}
+                        />
 
-                    <GenericCard
-                        titulo="Quem sou eu"
-                        conteudo={cardsContent.elaboracaoLaudo}
-                        icone={<Restaurant fontSize="large" />}
-                    />
+                        <GenericCard
+                            titulo={cardsContent.TranstornoTitle}
+                            conteudo={cardsContent.TranstornosContent}
+                            icone={<Restaurant fontSize="large" />}
+                        />
 
-                    <GenericCard
-                        titulo="Quem sou eu"
-                        conteudo={cardsContent.elaboracaoLaudo}
-                        icone={<Restaurant fontSize="large" />}
-                    />
-                </Box>
+                        <GenericCard
+                            titulo={cardsContent.TrasntornosGravesTitle}
+                            conteudo={cardsContent.TranstornosGravesContent}
+                            icone={<Restaurant fontSize="large" />}
+                        />
+                    </Box>
+                </Container>
             </DivBackground>
         </>
     );

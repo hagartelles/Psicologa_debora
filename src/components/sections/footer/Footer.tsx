@@ -1,4 +1,5 @@
 import { SvgIcon } from "@/components/globalComponents/icons";
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 export function Footer(){
@@ -17,12 +18,12 @@ export function Footer(){
                     <div id="iconesFooter" className="grid grid-cols-2">
                         <div className="grid relative col-span-1 tem place-content-center">
                             <a href="https://www.instagram.com/psideboramiler" className=" mx-4 ">
-                                <SvgIcon name="instagram" width="20" height="auto" />
+                                <SvgIcon name="instagram" width="40" height="auto" />
                             </a>
                         </div>
                         <div className="relative col-span-1">
                             <a href="https://www.tiktok.com/@psideboramiler?_t=8mInRBcnxl0&_r=1" className="grid place-content-center mx-4 ">
-                                <SvgIcon name="instagram" width="20" height="auto"/>
+                                <SvgIcon name="tikTok" width="40" height="auto"/>
                             </a>
                         </div>
                     </div>

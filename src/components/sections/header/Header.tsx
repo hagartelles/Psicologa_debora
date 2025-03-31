@@ -31,6 +31,7 @@ export function Header() {
     type Props = {
         name: string
         link: string
+        children?: React.ReactNode
     }
 
     const ItemMenu = ({ name, link }:Props) => (
@@ -41,6 +42,27 @@ export function Header() {
             </a>
         </li>
     );
+
+    const SocialLink = () => (
+        <div id="iconesFooter" className="grid grid-cols-2">
+            <div className="grid relative col-span-1">
+                <a
+                href="https://www.instagram.com/psideboramiler"
+                className="block h-full hover:bg-misty_rose place-items-center place-content-center"
+                >
+                <SvgIcon name="instagram" width="30" height="auto" />
+                </a>
+            </div>
+            <div className="grid relative col-span-1">
+                <a
+                href="https://www.tiktok.com/@psideboramiler?_t=8mInRBcnxl0&_r=1"
+                className="block h-full hover:bg-misty_rose place-items-center place-content-center"
+                >
+                <SvgIcon name="tikTok" width="30" height="auto" />
+                </a>
+            </div>
+        </div>
+    )
     
     const [logoWidthState, setLogoWidthState] = useState(0);
 
@@ -93,9 +115,9 @@ export function Header() {
                         <ul className={`hidden md:grid md:w-full md:grid-cols-5 place-items-stretch px-4 h-full`}>
                                 <ItemMenu name="Inicio" link="Inicio"/>
                                 <ItemMenu name="Sobre" link="Sobre" />
-                                <ItemMenu name="TCC" link="tratamento" />
+                                <ItemMenu name="Tratamentos" link="tratamentos" />
                                 <ItemMenu name="Duvidas" link="Duvidas" />
-                                <ItemMenu name="Contato" link="Contato" />
+                                <SocialLink/>
                         </ul>
                     </div>
                 </div>
@@ -105,11 +127,10 @@ export function Header() {
                     className={`absolute top-20 left-0 w-full
                     h-[calc(100vh-80px)] transition-opacity duration-100 transition-pointer-events ${menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
                             <ul className=" h-full  grid grid-cols-1  grid-rows-5 gap-0 ">
-                                <ItemMenu name="Inicio" link="Inicio" />
+                                <ItemMenu name="Inicio" link="Inicio"/>
                                 <ItemMenu name="Sobre" link="Sobre" />
-                                <ItemMenu name="tratamento" link="tratamento" />
-                                <ItemMenu name="FAQ" link="Duvidas" />
-                                <ItemMenu name="Contato" link="Contato" />
+                                <ItemMenu name="Tratamentos" link="tratamentos" />
+                                <ItemMenu name="Duvidas" link="Duvidas" />
                             </ul>
                     </div>
                 )}
